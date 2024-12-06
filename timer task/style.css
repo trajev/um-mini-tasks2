@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff5ee;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: black;
+  color: white;
+  width: 30%;
+  /* height: 20%; */
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px gray;
+  padding: 10px 20px;
+}
+
+.heading i{
+  color: orange;
+}
+.heading{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.muteControls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.muteControls i{
+  cursor: pointer;
+}
+
+.timer{
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls button{
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 8px 9px;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.controls button:hover{
+  background-color: darkred;
+}
+
+#pauseBtn{
+  display: none;
+}
+
+
+
+@media (max-width: 768px){
+  .container{
+    width: 90%;
+  }
+
+  .timer{
+    margin-top: 10px;
+    font-size: 24px;
+  }
+
+  .controls button{
+    padding: 5px 6px;
+    font-size: 18px;
+  }
+
+  .heading h1{
+    font-size: 18px;
+  }
+
+  .muteControls{
+    font-size: 18px;
+  }
+
+}
