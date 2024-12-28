@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: url("./forestBackground.png");
+  background-position: center;
+  background-size: cover;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
+  width: 35vw;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.title{
+  font-size: 32px;
+  margin: 30px 0px;
+  font-weight: bold;
+}
+
+
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+form input{
+  width: 100%;
+  font-size: 18px;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+form input:focus{
+  outline: none;
+  border: 2px solid rgb(66, 197, 122);
+}
+
+.password-div{
+  width: 100%;
+}
+
+.showPasswordDiv{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.showPasswordDiv input{
+  width: 15px;
+  height: 15px;
+  margin: 0px 10px;
+}
+
+.SignupBtn{
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  background-color: seagreen;
+  color: white;
+  cursor: pointer;
+  margin-top: 50px;
+}
+button:hover{
+  background-color: rgb(66, 197, 122);
+}
+
+.socialIcons{
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+  color: seagreen;
+  font-size: 42px;
+}
+.socialIcons i:hover{
+  color: rgb(66, 197, 122);
+  cursor: pointer;
+}
+
+p{
+  font-size: 18px;
+  color: gray;
+}
+
+.loginBtn{
+  color: seagreen;
+  cursor: pointer;
+}

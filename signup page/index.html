@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+  <main>
+
+    <h1 class="title">Sign Up</h1>
+
+    <form>
+
+      <input type="text" id="username" name="username" placeholder="Username" autocomplete="off">
+      <input type="email" id="email" name="email" placeholder="Email" autocomplete="off">
+      <div class="password-div">
+        <input type="password" id="password" name="password" placeholder="Password" autocomplete="off">
+        <div class="showPasswordDiv">
+          <input type="checkbox" name="show-password" id="showPassword">
+          <label for="showPassword">Show password</label>
+        </div>
+      </div>
+
+      <button class="SignupBtn">Sign Up</button>
+      <div class="socialIcons">
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-google-fill"></i>
+        <i class="ri-facebook-circle-fill"></i>
+      </div>
+
+      <p>Already a User? <a class="loginBtn">Login</a> </p>
+    </form>
+
+
+
+  </main>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
